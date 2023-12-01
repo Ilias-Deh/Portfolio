@@ -1,0 +1,14 @@
+[
+	{
+		"id": "A",
+        "link":"/project",
+		"title": "Projet ArgentBank",
+		"picture": "portfolio/images/projects/Projet-redux.png"
+	},
+	{
+		"id": "B",
+        "link":"/projectSec",
+		"title": "Projet Nina Carducci",
+		"picture": "portfolio/images/projects/Projet-seo.jpg"
+	}
+]

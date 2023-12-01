@@ -1,0 +1,42 @@
+[
+	{
+		"id": "0",
+		"title": "Html",
+		"picture": "portfolio/images/skills/html.png"
+	},
+	{
+		"id": "1",
+		"title": "Css",
+		"picture": "portfolio/images/skills/css.png"
+	},
+    {
+		"id": "2",
+		"title": "Javascript",
+		"picture": "portfolio/images/skills/js.png"
+	},
+    {
+		"id": "3",
+		"title": "React",
+		"picture": "portfolio/images/skills/react.png"
+	},
+    {
+		"id": "4",
+		"title": "Redux",
+		"picture": "portfolio/images/skills/redux.png"
+	},
+    {
+		"id": "5",
+		"title": "Sass",
+		"picture": "portfolio/images/skills/sass.png"
+	},
+    {
+		"id": "6",
+		"title": "Seo",
+		"picture": "portfolio/images/skills/seo.png"
+	},
+	{
+		"id": "7",
+		"title": "Figma",
+		"picture": "portfolio/images/skills/figma.png"
+	}
+]

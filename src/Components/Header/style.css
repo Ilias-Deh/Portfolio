@@ -1,0 +1,35 @@
+.header {    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-title p{
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+
+.header-nav {
+    margin-top: 8%;
+    background-color:#D9D9D9;
+    border-radius: 17px;
+}
+
+.header-nav ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.header-nav li{
+    margin-right: 15px;
+    list-style: none;
+    color: black;
+}

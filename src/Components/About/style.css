@@ -1,0 +1,22 @@
+.about {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 0px;
+
+}
+
+.about-picture {
+    width: 15%;
+    margin-right: 30px;
+    border-radius: 200px;
+}
+
+.about p {
+    font-size: 40px;
+}
+
+.about-text {
+    text-align: center;
+}

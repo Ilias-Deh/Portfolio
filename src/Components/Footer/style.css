@@ -1,0 +1,26 @@
+.footer {
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-display {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer li {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 40px;
+
+}

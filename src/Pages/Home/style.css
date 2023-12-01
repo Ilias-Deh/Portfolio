@@ -1,0 +1,21 @@
+.title {
+    text-align: center;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.background {
+    height: 50px;
+    position: absolute;
+    pointer-events: none;
+    z-index: 100;
+    width: 100vw;
+    opacity: .5;
+    filter: blur(40px);
+    background: radial-gradient(circle,#f86bdf 0,rgba(107,107,248,.8) 100%);
+}

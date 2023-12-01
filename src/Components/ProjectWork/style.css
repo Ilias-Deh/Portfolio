@@ -1,0 +1,16 @@
+.Project {
+    position: relative;
+}
+
+.Project__cover {
+    width: 100%;
+    height: 600px;
+}
+
+.Project__title {
+    color: white;
+    position: absolute;
+    bottom:45px;
+    left: 50px;
+    font-size: 40px;
+}
