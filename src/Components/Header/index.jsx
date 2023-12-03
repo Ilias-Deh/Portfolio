@@ -1,21 +1,24 @@
 import "./style.css"
-import { Link } from 'react-router-dom'
 
 function Header() {
+
+
   return (
     <div className="header">
       <nav className="header-nav">
         <ul>
-          <Link to="/">
+          <a href="#about">
               <li>À propos de moi</li>
-          </Link>
-          <Link to="/project">
+          </a>
+          <a href="#skills">
               <li>Compétences</li>
-          </Link>
-          <Link to="/projectSec" >
+          </a>
+          <a href="#slider">
               <li>Projets</li>
-          </Link> 
+          </a> 
+          <a href="#footer">
           <li>Contact</li>
+          </a>
         </ul>
       </nav>
     </div>

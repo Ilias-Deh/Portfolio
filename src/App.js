@@ -1,38 +1,31 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from "./Pages/Home";
-import Project from './Pages/Project';
-import ProjectSec from './Pages/ProjectSec';
-import { createGlobalStyle } from 'styled-components'
+import { createContext, useState } from 'react';
+import light from "./Assets/light.png"
+import night from "./Assets/night.png"
+import "./App.css"
 
-const GlobalStyle = createGlobalStyle`
-    * {
-        font-family: 'hind', sans-serif;    
-    }
 
-    body {
-        margin :0px;
-        background-color:#1E1E1E;
-    }
-    h2 {
-      font-size:40px;
-    }
-    h3 {
-      font-size:36px;
-      text-align:center;
-    }
 
-`
+export const ThemeContext = createContext(null);
 
 function App() {
+  const [theme, setTheme] = useState("dark")
+  const toogleTheme = () => {
+  setTheme((curr) => (curr === "dark" ? "light": "dark"))
+}
   return (
     <div>
     <Router>
-    <GlobalStyle />
+    <ThemeContext.Provider value={{theme, toogleTheme}}>
+    <div className='App' id={theme}>
+    {theme === "dark" ? <img src={night} alt='lampe' className='background-icon' onClick={() => toogleTheme()}/>  : <img src={light} alt='soleil' className='background-icon' onClick={() => toogleTheme()}/> }
+    
     <Routes>
-      <Route exact path="Portfolio/" element={<Home />} />
-      <Route path="Portfolio/project" element={<Project />} />
-      <Route path="Portfolio/projectSec" element={<ProjectSec />} />            
+      <Route exact path="Portfolio/" element={<Home />} />           
     </Routes>
+    </div>
+    </ThemeContext.Provider>
     </Router>
    </div>
   )

@@ -3,7 +3,7 @@ import photo from "../../Assets/Dehaynin-bg.png"
 
 function About() {
   return (
-    <div className="about">
+    <div id="about">
       <p>Dehaynin Ilias / Intégrateur Web</p>
       <img src={photo} alt="Ilias Dehaynin" className="about-picture"/>
       <p>Salut, je suis Ilias</p>

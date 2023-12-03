@@ -1,14 +1,32 @@
 [
 	{
 		"id": "A",
-        "link":"/project",
+        "link":"https://github.com/Ilias-Deh/ArgentBank-website",
 		"title": "Projet ArgentBank",
 		"picture": "images/projects/Projet-redux.png"
 	},
 	{
 		"id": "B",
-        "link":"/projectSec",
+        "link":"https://github.com/Ilias-Deh/Nina-Carducci",
 		"title": "Projet Nina Carducci",
 		"picture": "images/projects/Projet-seo.jpg"
+	},
+	{
+		"id": "C",
+        "link":"https://github.com/Ilias-Deh/724Events",
+		"title": "Projet 724Events",
+		"picture": "images/projects/Projet-events.png"
+	},
+	{
+		"id": "D",
+        "link":"https://github.com/Ilias-Deh/Kasa",
+		"title": "Projet Kasa",
+		"picture": "images/projects/Projet-kasa.png"
+	},
+	{
+		"id": "E",
+        "link":"https://github.com/Ilias-Deh/OhMyFood",
+		"title": "Projet OhMyFood",
+		"picture": "images/projects/Projet-myfood.jpg"
 	}
 ]

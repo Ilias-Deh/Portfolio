@@ -1,6 +1,5 @@
-.footer {
+#footer {
     height: 500px;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,14 +12,24 @@
     margin-bottom: 40px;
 }
 
-.footer ul {
+#footer ul {
     display: flex;
     flex-direction: column;
 }
 
-.footer li {
+#footer li {
     list-style: none;
     margin-right: 15px;
     font-size: 40px;
 
+}
+
+.footer-picture-git {
+    height:70px ;
+    width: 70px ;
+}
+
+.footer-picture-linkedin {
+    height:90px ;
+    width: 90px ;
 }

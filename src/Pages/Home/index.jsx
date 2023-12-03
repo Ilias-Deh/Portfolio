@@ -1,9 +1,8 @@
 import Header from "../../Components/Header";
 import About from "../../Components/About";
 import Skill from "../../Components/Skill";
+import Slider from "../../Components/Slider";
 import Footer from "../../Components/Footer";
-import ProjectWork from "../../Components/ProjectWork";
-import projects from "../../Datas/projects.json"
 import "./style.css"
 
 function Home() {
@@ -13,17 +12,8 @@ function Home() {
     <Header />
    <About />
    <Skill />
-   <h2 className="title">Projets</h2>
-   <div className="projects">
-   {projects.map(project => (
-      <ProjectWork key={project.id}
-            link={project.link}
-            title={project.title}
-            imageSrc={project.picture}
-            imageAlt={project.title}
-          />
-    ))}
-   </div>
+   <h2 id="slider">Projets</h2>
+   <Slider />
    <Footer />
    <div className="background" />
     </>

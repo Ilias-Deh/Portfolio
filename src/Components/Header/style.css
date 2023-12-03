@@ -1,10 +1,11 @@
 .header {    height: 100px;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 30px;
+    position: relative;
 }
+
 
 .header-title {
     display: flex;
@@ -22,14 +23,25 @@
     border-radius: 17px;
 }
 
+.header-nav a {
+    text-decoration: none;
+}
+
 .header-nav ul{
     display: flex;
     flex-direction: row;
-    color: white;
 }
 
-.header-nav li{
+#light .header-nav li{
     margin-right: 15px;
     list-style: none;
     color: black;
 }
+
+#dark .header-nav li{
+    margin-right: 15px;
+    list-style: none;
+    color: white;
+}
+
+
