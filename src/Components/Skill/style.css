@@ -44,3 +44,67 @@
 .skill-title {
     font-size: 15px;
 }
+
+
+
+@media (max-width: 1520px) {
+    .title {
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 40px;
+    }
+    .skills-display {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .skill-picture {
+        width: 70px;
+        height: 70px;
+    }
+    .skill-table {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px 20px;
+    }
+    .skills-school {
+        font-size: 24px;
+        text-align: center;
+    }
+    .skills-training {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .title {
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 30px;
+    }
+    .skills-display {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .skill-picture {
+        width: 30px;
+        height: 30px;
+    }
+    .skill-table {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px 20px;
+    }
+    .skills-school {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .skills-training {
+        font-size: 14px;
+        text-align: center;
+    }
+}

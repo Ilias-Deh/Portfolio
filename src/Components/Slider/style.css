@@ -5,6 +5,7 @@
     position: relative;
     overflow: hidden;
     box-shadow: inset;
+    
 }
 
 .otherslide {
@@ -13,16 +14,14 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    transform: translateX(-50%);
-    transition: all 500ms ease;
     position: absolute;
 }
 
 .slide {
     opacity: 1;
-    transform: translateX(0);
-    
+    height: 100%;
 }
+
 
 .slider-title {
     position: absolute;
@@ -34,8 +33,7 @@
 .slider-picture {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    
+    object-fit: cover; 
 }
 
 .arrow_left {
@@ -66,4 +64,48 @@
     opacity: 0.7;
     border-radius: 60px;
     border: solid 1px black;
+}
+
+
+@media (max-width: 1520px) {
+    .slider {
+        margin: 150px auto 0;
+        width: 80%;
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset;
+    }
+    .arrow_right {
+        width: 70px;
+        height: 70px;
+    }
+    .arrow_left {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width:600px) {
+    .slider {
+        margin: 100px auto 0;
+        width: 80%;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset;
+    }
+
+    .arrow_right {
+        top:43%;
+        right:5%;
+        height:30px ;
+        width: 30px;
+    }
+    .arrow_left {
+        top:43%;
+        right:5%;
+        height:30px ;
+        width: 30px;
+    }
 }

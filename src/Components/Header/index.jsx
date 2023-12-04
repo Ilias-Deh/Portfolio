@@ -1,8 +1,6 @@
 import "./style.css"
 
 function Header() {
-
-
   return (
     <div className="header">
       <nav className="header-nav">

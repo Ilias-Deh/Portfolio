@@ -33,3 +33,83 @@
     height:90px ;
     width: 90px ;
 }
+
+
+@media (max-width: 1520px) {
+    #footer {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-display {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+    
+    #footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #footer li {
+        list-style: none;
+        margin-right: 15px;
+        font-size: 40px;
+    
+    }
+    
+    .footer-picture-git {
+        height:70px ;
+        width: 70px ;
+    }
+    
+    .footer-picture-linkedin {
+        height:90px ;
+        width: 90px ;
+    }
+}
+
+@media (max-width: 600px) {
+    #footer {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-display {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+    
+    #footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #footer li {
+        list-style: none;
+        margin-right: 15px;
+        font-size: 30px;
+    
+    }
+    
+    .footer-picture-git {
+        height:50px ;
+        width: 50px ;
+    }
+    
+    .footer-picture-linkedin {
+        height:70px ;
+        width: 70px ;
+    }
+    
+    
+}

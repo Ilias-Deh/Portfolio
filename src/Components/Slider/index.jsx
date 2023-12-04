@@ -1,6 +1,6 @@
 import "./style.css"
 import projects from "../../Datas/projects.json"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import arrow_right from "../../Assets/arrow_right.png"
 import arrow_left from "../../Assets/arrow_left.png"
 
@@ -15,6 +15,20 @@ function Slider() {
     const previousCard = () => {
             setIndexSlide(indexSlide === 0 ? projects.length -1 : indexSlide -1);
     }
+
+    const autoScroll = true;
+    let slideInterval;
+    let intervalTime = 5000;
+    function auto() {
+        slideInterval = setInterval(nextCard, intervalTime)
+    }
+
+     useEffect(() => {
+        if(autoScroll) {
+            auto()
+        }
+        return () => clearInterval(slideInterval)
+    }, [indexSlide]);
 
     return (
         <div className="slider">

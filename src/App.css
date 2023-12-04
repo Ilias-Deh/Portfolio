@@ -9,11 +9,13 @@ body {
 #light{
   background-color: white;
   color: black;
+  transition: all 2s;
 }
 
 #dark{
   background-color:#1E1E1E;
   color: white;
+  transition: all 2s;
 }
 
 .background-icon {
@@ -25,21 +27,59 @@ body {
   padding: 3px;
   border: 1px solid;
   border-radius: 20px;
+  cursor: pointer;
 }
+
+#dark .background-icon:hover {
+  box-shadow: 0px 0px 60px 10px white;
+}
+
+#light .background-icon:hover {
+  box-shadow: 0px 0px 60px 10px black;
+}
+
 
 * {
   font-family: 'hind', sans-serif;    
 }
 
+h1 {
+  font-size:50px;
+}
+
 h2 {
-font-size:40px;
+font-size:50px;
 }
 h3 {
-font-size:36px;
+font-size:40px;
 text-align:center;
 }
 
 
 
 
+@media (max-width: 1520px) {
+    h2 {
+    font-size:30px;
+    }
+    h3 {
+    font-size:26px;
+    text-align:center;
+    }
+}
 
+@media (max-width: 600px) {
+    h2 {
+    font-size:26px;
+    }
+    h3 {
+    font-size:22px;
+    text-align:center;
+    }
+    .background-icon {
+      top: 31%;
+      right: 46%;
+      padding: 3px;
+
+    }
+}
