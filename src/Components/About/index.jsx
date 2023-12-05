@@ -3,7 +3,7 @@ import photo from "../../Assets/Dehaynin.png"
 
 function About() {
   return (
-    <div id="about">
+    <div id="about" role="main" >
       <h1>Dehaynin Ilias / Intégrateur Web</h1>
       <div className="display-about">
       <img src={photo} alt="Ilias Dehaynin" className="about-picture"/>
@@ -15,7 +15,7 @@ function About() {
       </div>
       <div className="display-aboutSec">
         <div className="display-informations">
-        <h3>Centre d'intérets</h3>
+        <h2>Centre d'intérets</h2>
         <ul>
           <li>Films</li>
           <li>Sport</li>
@@ -25,11 +25,12 @@ function About() {
         </ul>
         </div>
         <div className="display-informations">
-        <h3>Qualités</h3>
+        <h2>Qualités</h2>
         <ul>
           <li>Motivé</li>
           <li>Organisé</li>
           <li>Sociable</li>
+          <li>Honnête</li>
           <li>Autonome</li>
         </ul>
         </div>

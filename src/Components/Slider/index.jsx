@@ -31,7 +31,7 @@ function Slider() {
     }, [indexSlide]);
 
     return (
-        <div className="slider">
+        <div className="slider" role="region">
             <img src={arrow_left} alt="arrow left" className="arrow_left" onClick={previousCard}/>
             <img src={arrow_right} alt="arrow right" className="arrow_right" onClick={nextCard} />
             {projects.map((project, index) => {
@@ -40,7 +40,7 @@ function Slider() {
                      {index === indexSlide && (
                         <>
                         <a href={project.link}>
-                        <img className="slider-picture"  alt={project.title} src={project.picture} />
+                        <img className="slider-picture"  alt={project.alt} src={project.picture} />
                         <div>
                             <h3 className="slider-title">{project.title}</h3>
                         </div>
@@ -54,18 +54,3 @@ function Slider() {
     )
 }
 export default Slider;
-
-
-
-
-
-/* const nextCard = () => {
-    if(byDateDesc) {
-    setTimeout(
-      () => setIndex(index < byDateDesc.length - 1 ? index + 1 : 0),
-      5000
-    );}
-  };
-  useEffect(() => {
-    nextCard();
-  }); */

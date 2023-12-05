@@ -8,17 +8,15 @@ function Footer() {
   return (
     <ThemeContext.Consumer>
     {({theme, toogleTheme}) => (
-    <div id="footer">
+    <div role="contentinfo" id="footer">
     <h2>Contact</h2>
-    <ul >
-      <div className="footer-display">
+    <ul className="footer-display" >
         <li>ilias.dehaynin@gmail.com</li>
         <li>0751691087</li>
-      </div>
-      <div className="footer-display">
-        {theme === "light" ? <li><a href="https://github.com/Ilias-Deh"><img  src={logogitdark} className="footer-picture-git" alt="github"/></a></li> : <li><a href="https://github.com/Ilias-Deh"><img  src={logogit} className="footer-picture-git" alt="github"/></a></li>}
+    </ul>
+      <ul className="footer-displaySec">
+        {theme === "light" ? <li className="footer-margin"><a href="https://github.com/Ilias-Deh"><img  src={logogitdark} className="footer-picture-git" alt="github"/></a></li> : <li className="footer-margin"><a href="https://github.com/Ilias-Deh"><img  src={logogit} className="footer-picture-git" alt="github"/></a></li>}
         <li><a href="https://www.linkedin.com/in/ilias-dehaynin-5ab057253/"><img src={logolink} className="footer-picture-linkedin" alt="linkedin"/></a></li>
-      </div>
     </ul>
     </div>
     )}

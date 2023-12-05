@@ -3,20 +3,12 @@ import "./style.css"
 function Header() {
   return (
     <div className="header">
-      <nav className="header-nav">
+      <nav role="navigation" className="header-nav">
         <ul>
-          <a href="#about">
-              <li>À propos de moi</li>
-          </a>
-          <a href="#skills">
-              <li>Compétences</li>
-          </a>
-          <a href="#slider">
-              <li>Projets</li>
-          </a> 
-          <a href="#footer">
-          <li>Contact</li>
-          </a>
+              <li><a href="#about">À propos de moi</a></li>     
+              <li><a href="#skills">Compétences</a></li>     
+              <li><a href="#slider">Projets</a></li>  
+              <li><a href="#footer">Contact</a></li>    
         </ul>
       </nav>
     </div>

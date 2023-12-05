@@ -2,41 +2,50 @@
 	{
 		"id": "0",
 		"title": "Html",
+		"alt":"Icone Html",
 		"picture": "images/skills/html.png"
+		
 	},
 	{
 		"id": "1",
 		"title": "Css",
+		"alt":"Icone Css",
 		"picture": "images/skills/css.png"
 	},
     {
 		"id": "2",
 		"title": "Javascript",
+		"alt":"Icone Javascript",
 		"picture": "images/skills/js.png"
 	},
     {
 		"id": "3",
 		"title": "React",
+		"alt":"Icone React",
 		"picture": "images/skills/react.png"
 	},
     {
 		"id": "4",
 		"title": "Redux",
+		"alt":"Icone Redux",
 		"picture": "images/skills/redux.png"
 	},
     {
 		"id": "5",
 		"title": "Sass",
+		"alt":"Icone Sass",
 		"picture": "images/skills/sass.png"
 	},
     {
 		"id": "6",
 		"title": "Seo",
+		"alt":"Icone Seo",
 		"picture": "images/skills/seo.png"
 	},
 	{
 		"id": "7",
 		"title": "Figma",
+		"alt":"Icone Figma",
 		"picture": "images/skills/figma.png"
 	}
 ]
