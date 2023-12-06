@@ -15,6 +15,16 @@
     border-radius: 20px;
     padding: 1rem;
 }
+.skills-title{
+    display: flex;
+    justify-content: center;
+}
+.skills-icons{
+    height:70px ;
+    width:70px ;
+    margin-left: 10px;
+    align-self: center;
+}
 .skills-school {
     font-size: 32px;
     text-align: center;
@@ -28,11 +38,11 @@
     flex-direction: column;
     align-items: center;
 }
-
 .skill-table {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 50px 100px;
+    margin-top: 30px;
 }
 .skill-picture {
     width: 100px;
@@ -91,6 +101,10 @@
     .skills-background {
         background: none;
         border-radius: 0px;
+    }
+    .skills-icons{
+        height:40px ;
+        width:40px ;
     }
     .skills-display {
         border-radius: 20px;
