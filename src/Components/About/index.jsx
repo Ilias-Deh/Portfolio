@@ -14,7 +14,7 @@ function About() {
         <p className="about-text">Travailleur et passioné par l'informatique<br/> je suis la personne qui vous faut pour développer vos idées<br/> en créant le site web qui vous correspond </p>
       </div>
       </div>
-      </div>
+      
       <div className="display-aboutSec">
         <div className="display-informations">
         <h2>Centre d'intérets</h2>
@@ -35,6 +35,7 @@ function About() {
           <li>Honnête</li>
           <li>Autonome</li>
         </ul>
+        </div>
         </div>
       </div>
     </div>

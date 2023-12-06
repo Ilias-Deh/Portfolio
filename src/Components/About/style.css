@@ -6,9 +6,17 @@
 }
 
 .about-background {
+    margin-top: 4rem;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background: radial-gradient(circle,#9d2e89 0,rgba(107,107,248,.8) 100%);
+    border-radius: 50px;
+}
+
+#light .about-background {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(235, 18, 18, 0.86) 0%, rgba(177, 72, 73, 0.858533) 0.01%, rgba(166, 73, 128, 0.689792) 60.42%, rgba(203, 74, 74, 0.6536) 100%);
 }
 
 .display-about {
@@ -19,17 +27,18 @@
     justify-content: space-evenly;
     border-radius: 30px;
 }
+
 .display-aboutSec {
-    margin-top: 50px;
+    margin: 50px 0PX;
     display: flex;
-    width: 80%;
+    width: 60%;
     justify-content: space-around;
-    background: radial-gradient(circle,#9d2e89 0,rgba(107,107,248,.8) 100%);
+    background: #1E1E1E;
     border-radius: 20px;
 }
 
 #light .display-aboutSec{
-    background: radial-gradient(50% 50% at 50% 50%, rgba(235, 18, 18, 0.86) 0%, rgba(177, 72, 73, 0.858533) 0.01%, rgba(166, 73, 128, 0.689792) 60.42%, rgba(203, 74, 74, 0.6536) 100%);
+    background: white;
 }
 
 .display-informations {
@@ -41,8 +50,10 @@
 .about-picture {
     width: 400px;
     margin-right: 30px;
-    border-radius: 200px;
+    border-radius: 200px; 
+
 }
+
 #about p {
     font-size: 40px;
 }
@@ -75,14 +86,10 @@
         align-items: center;  
     }
     .display-aboutSec {
-        background: none;
-        margin-top: 50px;
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
+        width: 80%;
     }
     #light .display-aboutSec {
-        background: none;
+        width: 80%;
     }
     .about-picture {
         width: 300px;
@@ -104,6 +111,10 @@
         align-items: center;
         margin: 100px 0px;
     }
+    .about-background {
+        width: 100%;
+    }
+  
     .display-about {
         margin-top: 0.5rem;
         display: flex;
@@ -114,7 +125,7 @@
     .display-aboutSec {
         margin-top: 50px;
         display: flex;
-        width: 100%;
+        width: 80%;
         justify-content: space-around;
     }
     .about-picture {

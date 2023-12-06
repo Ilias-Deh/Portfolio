@@ -49,6 +49,7 @@ body {
   background: linear-gradient(180deg, #A74141 0%, #D86263 54.69%, #E2D2D2 97.4%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 #dark h1 {
@@ -56,6 +57,7 @@ body {
   background: linear-gradient(#9d2e89 0,rgba(107,107,248,.8) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 h2 {
