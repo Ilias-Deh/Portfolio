@@ -30,7 +30,6 @@ function Skill() {
           <h3>Languages</h3>
           {theme === "light" ?<img src={competenceDark} alt="Compétence icone" className="skills-icons" /> : <img src={competence} alt="Compétence icone" className="skills-icons" /> }
         </div>
-
         <div className="skill-table">
         {skills.map(skill => (
           <div className="skill" key={skill.id}>

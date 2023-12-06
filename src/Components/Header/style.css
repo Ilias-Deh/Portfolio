@@ -47,6 +47,10 @@
     align-self: center;
 }
 
+#light .header-nav li:hover {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(235, 18, 18, 0.86) 0%, rgba(177, 72, 74, 0.248) 0.01%, rgba(166, 73, 127, 0.263) 60.42%, rgba(203, 74, 74, 0.6536) 100%);
+}
+
 @media (max-width: 1520px) {
     .header-nav {
         display: flex;
@@ -77,6 +81,12 @@
         border-radius: 17px;
     }
     .header-nav li{
+        margin-right: 0.2rem;
+        list-style: none;
+        padding: 0.3rem 0.5rem;
+        font-size: 0.9rem;
+    }
+    #light .header-nav li{
         margin-right: 0.2rem;
         list-style: none;
         padding: 0.3rem 0.5rem;

@@ -8,7 +8,7 @@
     justify-content: space-around;
 }
 
-.background {
+#dark .background {
     height: 100px;
     pointer-events: none;
     z-index: 100;
@@ -16,4 +16,14 @@
     opacity: .5;
     filter: blur(40px);
     background: radial-gradient(circle,#f86bdf 0,rgba(107,107,248,.8) 100%);
+}
+
+#light .background {
+    height: 100px;
+    pointer-events: none;
+    z-index: 100;
+    width: 100vw;
+    opacity: .5;
+    filter: blur(40px);
+    background: linear-gradient(180deg, rgba(235, 18, 18, 0.86) 0%, rgba(177, 72, 73, 0.858533) 0.01%, rgba(166, 73, 128, 0.689792) 60.42%, rgba(164, 125, 196, 0) 100%);
 }
