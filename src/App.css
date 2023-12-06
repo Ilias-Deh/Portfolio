@@ -44,8 +44,18 @@ body {
   font-family: 'hind', sans-serif;    
 }
 
-h1 {
-  font-size:3rem;
+#light h1 {
+  font-size:3.6rem;
+  background: linear-gradient(180deg, #A74141 0%, #D86263 54.69%, #E2D2D2 97.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#dark h1 {
+  font-size:3.6rem;
+  background: linear-gradient(#9d2e89 0,rgba(107,107,248,.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -57,7 +67,10 @@ text-align:center;
 }
 
 @media (max-width: 1520px) {
-    h1 {
+    #dark h1 {
+      font-size: 3rem;
+    }
+    #light h1{
       font-size: 3rem;
     }
     h2 {
@@ -70,7 +83,10 @@ text-align:center;
 }
 
 @media (max-width: 768px) {
-    h1{
+    #dark h1{
+      font-size: 1.8rem;
+    }
+    #light h1{
       font-size: 1.8rem;
     }
     h2 {
