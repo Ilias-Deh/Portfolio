@@ -12,7 +12,7 @@
     align-items: center;
     width: 80%;
     background: radial-gradient(circle,#9d2e89 0,rgba(107,107,248,.8) 100%);
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 #light .about-background {
@@ -75,7 +75,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 200px 0px;
+        margin: 150px 0px;
         width: 100%;
     }
     .display-about {
@@ -114,7 +114,6 @@
     .about-background {
         width: 100%;
     }
-  
     .display-about {
         margin-top: 0.5rem;
         display: flex;

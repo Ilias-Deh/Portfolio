@@ -64,8 +64,8 @@
         text-align: center;
         margin-bottom: 80px;
     }
-    .skills {
-        margin-bottom: 50px;
+    #skills {
+        margin-bottom: 100px;
     }
     .skills-display {
         display: flex;
@@ -116,6 +116,7 @@
     #dark .skills-background {
         background: none;
         border-radius: 0px;
+        padding: 0;
     }
 
     #light .skills-background {

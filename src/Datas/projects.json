@@ -4,34 +4,44 @@
         "link":"https://github.com/Ilias-Deh/ArgentBank-website",
 		"title": "Projet ArgentBank",
 		"alt":"Page de code",
-		"picture": "images/projects/Projet-redux.png"
+		"picture": "images/projects/Projet-redux.png",
+		"description":"Le projet ArgentBank consiste à rendre un site en react et lui ajouter un state manager",
+		"tools":["React","Redux"]
 	},
 	{
 		"id": "B",
         "link":"https://github.com/Ilias-Deh/Nina-Carducci",
 		"title": "Projet Nina Carducci",
 		"alt":"image Seo",
-		"picture": "images/projects/Projet-seo.jpg"
+		"picture": "images/projects/Projet-seo.jpg",
+		"description":"L'objectif du projet Nina Carducci est d'optimiser le référencement (SEO) pour améliorer la visibilité en ligne.",
+		"tools":["Seo","Html"]
 	},
 	{
 		"id": "C",
         "link":"https://github.com/Ilias-Deh/724Events",
 		"title": "Projet 724Events",
 		"alt":"Conférence",
-		"picture": "images/projects/Projet-events.png"
+		"picture": "images/projects/Projet-events.png",
+		"description":"L'essence du projet 724Events réside dans la résolution des bogues du site par le biais de tests approfondis.",
+		"tools":["React","Javascript"]
 	},
 	{
 		"id": "D",
         "link":"https://github.com/Ilias-Deh/Kasa",
 		"title": "Projet Kasa",
 		"alt":"Paysage montagne",
-		"picture": "images/projects/Projet-kasa.png"
+		"picture": "images/projects/Projet-kasa.png",
+		"description":"Le projet Kasa a pour objectif fondamental de développer une plateforme en utilisant React",
+		"tools":["React","Javascript","Sass"]
 	},
 	{
 		"id": "E",
         "link":"https://github.com/Ilias-Deh/OhMyFood",
 		"title": "Projet OhMyFood",
 		"alt":"Restaurants",
-		"picture": "images/projects/Projet-myfood.jpg"
+		"picture": "images/projects/Projet-myfood.jpg",
+		"description":"Le projet OhMyFood vise à élaborer un site en exploitant des animations CSS sophistiquées.",
+		"tools":["Html","Sass"]
 	}
 ]

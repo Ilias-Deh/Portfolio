@@ -14,13 +14,13 @@ function App() {
   const toogleTheme = () => {
   setTheme((curr) => (curr === "dark" ? "light": "dark"))
 }
-  return (
+  return (                          
     <div>
     <Router>
-    <ThemeContext.Provider value={{theme, toogleTheme}}>
+    <ThemeContext.Provider value={{theme, toogleTheme}}>         {/* Fonction Thème */}
     <div className='App' id={theme}>
-    {theme === "dark" ? <img src={night} alt='lampe' className='background-icon' onClick={() => toogleTheme()}/>  : <img src={light} alt='soleil' className='background-icon' onClick={() => toogleTheme()}/> }
-    
+    {theme === "dark" ? <img src={night} alt='lampe' className='background-icon' onClick={() => toogleTheme()}/>       
+    : <img src={light} alt='soleil' className='background-icon' onClick={() => toogleTheme()}/> }
     <Routes>
       <Route exact path="Portfolio/" element={<Home />} />           
     </Routes>

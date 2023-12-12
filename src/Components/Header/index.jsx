@@ -1,6 +1,6 @@
 import "./style.css"
 
-function Header() {
+function Header() {   /* Composant menu Ilias Dehaynin */ 
   return (
     <div className="header">
       <nav role="navigation" className="header-nav">

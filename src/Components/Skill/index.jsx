@@ -6,14 +6,14 @@ import competence from "../../Assets/capacites.png"
 import formationDark from "../../Assets/formation-dark.png"
 import competenceDark from "../../Assets/capacites-dark.png"
 
-function Skill() {
+function Skill() {                   /* Composant Compétences Ilias Dehaynin */ 
     return (
       <ThemeContext.Consumer>
       {({theme, toogleTheme}) => (
       <div id="skills" role="region">
         <h2 className="title">Compétences</h2>
         <div className="skills-display">
-        <div className="skills-background">
+        <div className="skills-background">    
         <div className="skills-title">
           <h3>Formation</h3>
           {theme === "light" ?<img src={formationDark} alt="Formation icone" className="skills-icons" /> : <img src={formation} alt="Formation icone" className="skills-icons" /> }
@@ -22,7 +22,7 @@ function Skill() {
         <p className="skills-training">Bac sciences et technologies de l'industrie et du développement durable</p>
         <h4 className="skills-school">CERI - UNIVERSITÉ D'AVIGNON</h4>
         <p className="skills-training">L1 Informatique/Mathématique</p>
-        <h4 className="skills-school">OPENCLASSROOMSM</h4>
+        <h4 className="skills-school">OPENCLASSROOMS</h4>
         <p className="skills-training">Intégrateur Web</p>
         </div>
         <div className="skills-background">

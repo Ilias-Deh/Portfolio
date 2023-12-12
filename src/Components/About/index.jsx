@@ -1,7 +1,7 @@
 import "./style.css"
 import photo from "../../Assets/Dehaynin.png"
 
-function About() {
+function About() {                    /* Composant Description Ilias Dehaynin */
   return (
     <div id="about" role="main" >
       <h1>Dehaynin Ilias / Intégrateur Web</h1>
@@ -14,13 +14,12 @@ function About() {
         <p className="about-text">Travailleur et passioné par l'informatique<br/> je suis la personne qui vous faut pour développer vos idées<br/> en créant le site web qui vous correspond </p>
       </div>
       </div>
-      
-      <div className="display-aboutSec">
-        <div className="display-informations">
+      <div className="display-aboutSec">               
+        <div className="display-informations">                     
         <h2>Centre d'intérets</h2>
         <ul>
           <li>Films</li>
-          <li>Sport</li>
+          <li>Sport</li>                                                  
           <li>Jeux</li>
           <li>Musique</li>
           <li>Informatique</li>
