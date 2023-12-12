@@ -16,7 +16,7 @@ function Slider() { /* Composant Carrousel Ilias Dehaynin */
             setIndexSlide(indexSlide === 0 ? projects.length -1 : indexSlide -1);
     }
 
-    const autoScroll = false;
+    const autoScroll = true;
     let slideInterval;
     let intervalTime = 5000;                                
     function auto() {
