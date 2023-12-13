@@ -3,6 +3,7 @@ import projects from "../../Datas/projects.json"
 import { useState, useEffect } from "react";
 import arrow_right from "../../Assets/arrow_right.png"
 import arrow_left from "../../Assets/arrow_left.png"
+import linkIcon from "../../Assets/link-icon.png"
 
 function Slider() { /* Composant Carrousel Ilias Dehaynin */ 
 
@@ -38,7 +39,8 @@ function Slider() { /* Composant Carrousel Ilias Dehaynin */
                 return (
                     <div className={index === indexSlide ? "slide" : "otherSlide" } key={project.id}>         
                      {index === indexSlide && (
-                        <>                                                                                                  {/* Slide */}
+                        <>
+                        <a href={project.link}><img className="slider-icon" src={linkIcon} alt="Icon Lien" /></a>                                                                                                  {/* Slide */}
                         <a href={project.link}>
                         <img className="slider-picture"  alt={project.alt} src={project.picture} />
                         <div>

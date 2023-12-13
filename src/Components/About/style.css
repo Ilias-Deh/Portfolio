@@ -51,19 +51,11 @@
     width: 400px;
     margin-right: 30px;
     border-radius: 200px; 
-
+    margin-bottom: 20px;
 }
 
 #about p {
     font-size: 40px;
-}
-#about li {
-    font-size: 26px;
-    margin-top: 10px;
-    list-style: none;
-}
-#about ul {
-    padding: 0;
 }
 
 .about-text {
@@ -138,5 +130,6 @@
     .about-text {
         display: flex;
         margin: 0% 10%;
+        margin-bottom: 30px;
     }
 }

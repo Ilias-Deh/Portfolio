@@ -18,6 +18,14 @@
     opacity: 1;
     height: 100%;
 }
+.slider-icon{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    height:60px;
+    width:60px;
+    transform: translate(-50%,-50%);
+}
 .slider-title {
     position: absolute;
     top: 36%;
@@ -90,6 +98,10 @@
         overflow: hidden;
         box-shadow: inset;
     }
+    .slider-icon{
+        height:40px;
+        width:40px;
+    }
     .arrow_right {
         width: 70px;
         height: 70px;
@@ -114,6 +126,10 @@
         position: relative;
         overflow: hidden;
         box-shadow: inset;
+    }
+    .slider-icon{
+        height:20px;
+        width:20px;
     }
     .arrow_right {
         top:43%;

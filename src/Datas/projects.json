@@ -22,7 +22,7 @@
         "link":"https://github.com/Ilias-Deh/724Events",
 		"title": "Projet 724Events",
 		"alt":"Conférence",
-		"picture": "images/projects/Projet-events.png",
+		"picture": "images/projects/Projet-events.jpg",
 		"description":"L'essence du projet 724Events réside dans la résolution des bogues du site par le biais de tests approfondis.",
 		"tools":["React","Javascript"]
 	},
@@ -31,7 +31,7 @@
         "link":"https://github.com/Ilias-Deh/Kasa",
 		"title": "Projet Kasa",
 		"alt":"Paysage montagne",
-		"picture": "images/projects/Projet-kasa.png",
+		"picture": "images/projects/Projet-kasa.jpg",
 		"description":"Le projet Kasa a pour objectif fondamental de développer une plateforme en utilisant React",
 		"tools":["React","Javascript","Sass"]
 	},

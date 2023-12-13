@@ -18,11 +18,11 @@ function Skill() {                   /* Composant Compétences Ilias Dehaynin */
           <h3>Formation</h3>
           {theme === "light" ?<img src={formationDark} alt="Formation icone" className="skills-icons" /> : <img src={formation} alt="Formation icone" className="skills-icons" /> }
         </div>
-        <h4 className="skills-school">Lycée Phillipe de Girard</h4>
+        <h4 className="skills-school">Lycée Phillipe de Girard - 2019</h4>
         <p className="skills-training">Bac sciences et technologies de l'industrie et du développement durable</p>
-        <h4 className="skills-school">CERI - UNIVERSITÉ D'AVIGNON</h4>
+        <h4 className="skills-school">CERI - UNIVERSITÉ D'AVIGNON - 2021</h4>
         <p className="skills-training">L1 Informatique/Mathématique</p>
-        <h4 className="skills-school">OPENCLASSROOMS</h4>
+        <h4 className="skills-school">OPENCLASSROOMS - 2023</h4>
         <p className="skills-training">Intégrateur Web</p>
         </div>
         <div className="skills-background">

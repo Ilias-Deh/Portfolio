@@ -1,0 +1,48 @@
+.Information {
+    background:radial-gradient(circle,#9d2e89 0,rgba(107,107,248,.8) 100%);
+    height: 500px;
+    margin: 0 10%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#light .Information{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(235, 18, 18, 0.86) 0%, rgba(177, 72, 73, 0.858533) 0.01%, rgba(166, 73, 128, 0.689792) 60.42%, rgba(203, 74, 74, 0.6536) 100%);
+}
+.display-aboutSec{
+    background:#1E1E1E;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#light .display-aboutSec{
+    background: white;
+}
+
+.Information li {
+    font-size: 26px;
+    margin-top: 10px;
+    list-style: none;
+}
+.Information ul {
+    padding: 0;
+}
+
+
+@media (max-width: 1520px) {
+    .Information{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Information{
+        margin: 50px 0 0 0;
+        height: 400px;
+    }
+
+
+
+}
